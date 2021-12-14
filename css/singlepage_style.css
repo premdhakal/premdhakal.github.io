@@ -99,7 +99,7 @@ aside > div {
     color: #FFF;
 	margin-top:-5px;
 	margin-bottom: -50px;
-	width:50%;
+	width:80%;
 	background: #dd4b39;
 }
 #logo img {
@@ -129,7 +129,9 @@ body > section {
 		float: none;
 		width: 100%;
 	}
-
+ #logo {
+    font-size: 2rem;
+     }
 }
 
 table {
