@@ -327,3 +327,9 @@
 		.bottoms{margin-top:-25px;margin-left:70px;}
  }
  
+ @media (min-width:250px){
+	.containerIframe {
+		width: 85vw;
+	}
+	
+ }
