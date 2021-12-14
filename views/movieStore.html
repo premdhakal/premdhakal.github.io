@@ -1,58 +1,93 @@
 <!doctype html>
-<html>
+<html lang="en" class="no-js">
 <head>
-<meta charset="utf-8">
-<title>Prem Dhakal</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="indexCSS6.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
-	<link href="../css/projectCSS.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Movie Store</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="../css/singlepage_style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
-	
-	<div class="portfolio2">
-		<div class="projectTitle">
-			MyMovieStore
-		</div>
-		
-		<div class="linkToGithub">
-			Here is link to github: Will be provided upon request
-		</div>
-		
-		<div class="descpProject">
-			<h1>About Project: </h1>
-			<p><br>This application is built inorder to fulfill the business needs for local movie stored called "MyMovie Store". Employees at MyMovie Store needed an application that can help them stay up to date with numbers of movies they have currently in store. They want to see which movies are checked-out, checked-in, due date other general tasks. Employees also wanted to be able to sell or rent movies out to customers.</p>
-		</div>
-		<div class="projectFeatures">
-			<div class="columnPF">
-				<h1 id="columnPFHeading" style="width: 280px" >Techology Used: </h1>
-				<li id="lists2">Java</li>
-				<li id="lists">Eclipse</li>
-				<li id="lists2">NetBeans</li>
-			</div>
-			<div class="columnPF2">
-				<h1 id="columnPFHeading" style="width: 400px">Features Implemented: </h1>
-				<li id="lists2">Check Inventory Records</li>
-				<li id="lists">Sell/Rent Movies</li>
-				<li id="lists2">Login/Logout</li>
-			</div>
-			
-		</div>
-		
-			<div class="imageLabel" style="margin-top: 300px">Screenshots</div>
-		<div class="moreDetail" style="overflow:auto">
+	<header>
+		<div id="logo">MyMovie Store</div>
+	</header>
+	<section>
+		<strong>Link to GitHub:  Here is link to github: Will be provided upon request
+		</strong>
+	</section>
+	<section id="pageContent">
+		<main role="main">
+			<article>
+				<div class="aboutProject">
+					<h1>About Project: </h1>
+					<p>
+						<br>This application is built inorder to fulfill the business needs for local movie stored called "MyMovie Store". 
+						Employees at MyMovie Store needed an application that can help them stay up to date with numbers of movies they have 
+						currently in store. They want to see which movies are checked-out, checked-in, due date other general tasks. 
+						Employees also wanted to be able to sell or rent movies out to customers.
+					</p>
+				</div>
+			</article>
+			<article>
+				<table>
+					<tr>
+					  <th scope="col">Technology Used</th>
+					  <th scope="col">Features Implemented</th>
+					</tr>
+				  <tbody>
+					<tr>
+					  <td class="a" data-label="Account" rowspan="2" >
+						<table>
+							<td style="width:20%;float:left"></td>
+							<td style="width:70%;float:left;text-align: left"><ul><li id="lists">Java</li></ul></td>
+						</table>
+						<table>
+							<td style="width:20%;float:left"></td>
+							<td style="width:70%;float:left;text-align: left"><ul><li id="lists">JFrame</li></ul></td>
+						</table>
+						<table>
+							<td style="width:20%;float:left"></td>
+							<td style="width:70%;float:left;text-align: left"><ul><li id="lists">Eclipse IDE</li></ul></td>
+						</table>
+						<table>
+							<td style="width:20%;float:left"></td>
+							<td style="width:70%;float:left;text-align: left"><ul><li id="lists">NetBeans IDE</li></ul></td>
+						</table>
+					  </td>
+					  <td class="b" data-label="Period" rowspan="2" >
+					  	<table>
+							<td style="width:20%;float:left"></td>
+							<td style="width:70%;float:right;text-align: left"><ul><li id="lists">Check Inventory Records</li></ul></td>
+						</table>
+						<table>
+							<td style="width:20%;float:left"></td>
+							<td style="width:70%;float:right;text-align: left"><ul><li id="lists">Sell/Rent Movies</li></ul></td>
+						</table>
+						<table>
+							<td style="width:20%;float:left"></td>
+							<td style="width:70%;float:right;text-align: left"><ul><li id="lists">Login/Logout</li></ul></td>
+						</table>
+					
+					  </td>
+					</tr>
+				  </tbody>
+				</table>
+			</article>
+		</main>
+		<aside>
 			<div class="picAreas">
-				<p id="picDesp"><b style="font-size: 25px; color:#dd4b39 " >Application</b> Simple and elegant application with login security features which allows employees at MyMovie Store to checkin, checkout, sell or rent movies.</p>
-			    <img id="pic1" src="images/movieStore.png" alt="imag1">
+			        <p id="picDesp"><b style="font-size: 25px; color:#dd4b39 " >
+				Application</b> Simple and elegant application with login security features which allows employees at MyMovie Store to checkin, checkout, 
+				sell or rent movies.</p>
+				</p>
+			       <img id="pic1" src="../assets/img/Movie/movieStore.PNG" alt="movie">				
 			 </div>
-		</div>
-		
-		<div class="previous" style="text-align: center; letter-spacing: 0.2em" >
-			<li><i class="fas fa-arrow-circle-left" id="prev" onclick="window.location.href='chatServer.html';"></i><span><i class="fas fa-home" id="prev" onclick="window.location.href='index.html';" ></i></span><span><i class="fas fa-arrow-circle-right" id="prev" onclick="window.location.href='ccna2cracked.html';"></i></span></a>
-		</div>
-	</div>
-  </div>
+		</aside>
+	</section>
 </body>
+
 </html>
