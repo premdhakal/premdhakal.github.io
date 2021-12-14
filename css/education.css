@@ -1,0 +1,26 @@
+.eduDetail{
+	margin-left: 30px;
+	height: 350px;
+}
+
+.eduDetail h3 {
+	font-size:25px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.typeDegree{
+	font-size: 18px; font-weight: bold;
+}
+
+.major{
+	font-size: 18px;
+}
+
+#gpa, .ach{
+	font-size: 18px; font-weight: bold;
+}
+
+.date, .achs{
+	font-size: 18px;
+}
