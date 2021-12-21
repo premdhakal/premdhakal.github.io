@@ -21,54 +21,70 @@ input,select{vertical-align:middle}
 body,html {
 	background-color: #FFF;
 }
-header {
-    padding: 20px 30px;
-    max-width: 940px;
-    margin: auto;
-	color: whitesmoke;
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.7rem;
+    margin-left: -25px;
+	margin-top: .055em;
+	margin-bottom: .25em;
+    color: #FFF;
+	width:80%;
+	background: #dd4b39;
 }
-.aboutProject h1{
-	background-color:#4496d5;
-	width:200px;
-    font-size: 28px;
-	color:#FFF;
+.githubL strong{
+	width:auto;
+    font-size: 1.5rem;
+	color:goldenrod;
+	margin-left: -25px;
+	margin-bottom: .25em;
 }
 
-nav {
-    display: inline-block;
+.githubL a{
+	width:auto;
+    font-size: 1rem;
 }
-nav ul li a {
-    background: #EEE;
-    padding: 2px 10px;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #444;
-    border-radius: 10px;
+
+.aboutProject h1{
+	background-color:#4496d5;
+	max-width:50%;
+    font-size: 2em;
+	color:#FFF;
+	margin-left: -25px;
+	margin-top: .3em;
+	margin-bottom: .15em;
 }
-nav ul li a:hover {
-	background: #FFF;
+
+.aboutProject p{
+	margin-left: 20px;
 }
-nav ul li {
-    display: inline-block;
-    margin: 10px;
-}
-nav ul {
-    list-style: none;
-}
-#pageContent {
-    max-width: 1000px;
-    margin: auto;
-    border: none;
-}
+
 main {
-	float: left;
 	width: 100%;
 }
+
 aside {
-	float: right;
 	width: 100%;
 }
+
+/*button previous */
+.previous li{
+	text-decoration: none;
+	list-style: none;
+}
+#prev{
+	font-size: 3rem;
+	text-decoration: none;
+	transition: all ease-in-out 250;
+	margin-left: 30px;
+	margin-top: 10px;
+	color:#4496d5;
+}
+#prev:hover{
+	color:#dd4b39;
+}
+
 article {
     border-bottom: 2px dotted #999;
     padding-bottom: 20px;
@@ -81,32 +97,24 @@ article h2 {
 article p {
 	
 }
-main section {
-	
-}
-address {
-    padding: 10px 20px 30px 10px;
-}
+
+
 aside > div {
 	margin: 10px auto;
 	min-height: 100px;
 }
-#logo {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 2.7rem;
-    margin-left: -30px;
-    color: #FFF;
-	margin-top:-5px;
-	margin-bottom: -50px;
-	width:80%;
-	background: #dd4b39;
-}
-#logo img {
-    width: 50px;
-    vertical-align: middle;
-    margin-right: 25px;
-}
+
+ .tabletableright{
+	width: 20%;
+	float: left;
+ }	
+  .tabletableleft{
+	width: 75%;
+	float: left;
+	text-align: left;
+ }	
+
+
 body > section {
     max-width: 1000px;
     margin: auto;
@@ -120,19 +128,6 @@ body > section {
 		padding: 30px 20px;
 	}
 }
-@media screen and (max-width: 600px) {
-	main {
-		float: none;
-		width: 100%;
-	}
-	aside {
-		float: none;
-		width: 100%;
-	}
- #logo {
-    font-size: 2rem;
-     }
-}
 
 table {
   border: 1px solid #ccc;
@@ -141,12 +136,6 @@ table {
   padding: 0;
   width: 100%;
   table-layout: fixed;
-}
-
-table tr {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
-  padding: .35em;
 }
 
 table th,
@@ -170,6 +159,7 @@ table th {
 .a{
 	text-align: left;
 }
+
 #lists{
 	font-size: 18px;
 	text-indent: 5px;
@@ -182,21 +172,45 @@ table th {
 }
 		
 @media screen and (max-width: 600px) {
+	main {
+			float: none;
+			width: 100%;
+		}
+	aside {
+			float: none;
+			width: 100%;
+		}
+	 #logo {
+		font-size: 2rem;
+		 }
   table {
     border: 0;
   }
 
   table tr {
-    border-bottom: 3px solid #ddd;
     display: block;
-    margin-bottom: .625em;
+    margin-bottom: .1em;
+	max-width:85vw;
+	background-color: #f8f8f8;
+	padding: .35em;
   }
   
   table td {
-    border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
     text-align: right;
+	max-width:80vw;
+	
+  }
+ tbody{
+	
+ }	 
+  tbody tr td{
+	
+	width: 100%;
+ }	
+  table th {
+	  display:none;
   }
   
   table td::before {
@@ -213,6 +227,21 @@ table th {
   table td:last-child {
     border-bottom: 0;
   }
+  .tableHeader{
+	display:none;
+}
+   .tabletableright{
+	display: none;
+ }	
+  .tabletableleft{
+	width: 100%;
+	font-size: .8em;
+ }	
+ 
+ .aboutProject h1{
+	font-size: 1.5rem;
+	max-width:60%;
+ }
 }
 
 .responsive {
